@@ -1,0 +1,7 @@
+{
+  "name": "plateDetect",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

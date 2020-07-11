@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Plate Detector
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Plate</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+      <img src="{{ _image }}"/>
+      <ion-button (click)="fromGallery()"><ion-icon name="image-sharp"></ion-icon></ion-button>
+      <ion-button (click)="takePicture()"><ion-icon name="camera-sharp"></ion-icon></ion-button>
+      <ion-button (click)="uploadImage()"><ion-icon name="paper-plane-sharp"></ion-icon></ion-button>
+  </div>
+</ion-content>
